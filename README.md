@@ -24,5 +24,8 @@ npm run build
 ### Node Version
 
 ```
-Node >= 18
+Compatibility Note
+
+Vite requires Node.js version 18+. 20+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+https://vitejs.dev/guide/
 ```
