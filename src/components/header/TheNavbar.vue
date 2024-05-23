@@ -25,7 +25,6 @@ export default {
   setup(_, context){
     const isMenuOpened = ref(false)
     function menuOpen () {
-      console.log(isMenuOpened)
       isMenuOpened.value = !isMenuOpened.value;
       context.emit('isMenuOpened',this.isMenuOpened)
     }

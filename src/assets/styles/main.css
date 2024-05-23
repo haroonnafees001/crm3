@@ -386,6 +386,9 @@ ul li{
         box-sizing: border-box;
         align-items: center;
         justify-content: space-between;
+        position: fixed;
+        top: 0;
+        z-index: 9;
 
     }
     .sidebar .close-icon,
@@ -402,7 +405,7 @@ ul li{
         z-index: 1;
         left: -100%;
         padding:1rem 1rem;
-        top:70px;
+        top:60px;
     }
     .sidebar.active{
         width: 100%;
